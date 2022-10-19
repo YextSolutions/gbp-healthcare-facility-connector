@@ -4093,11 +4093,6 @@
       "subfieldPath": []
     },
     {
-      "field": "gbp_openDate",
-      "header": "Coming Soon",
-      "subfieldPath": []
-    },
-    {
       "field": "hours",
       "header": "SpecialHoursOpenTime[2]",
       "subfieldPath": [
