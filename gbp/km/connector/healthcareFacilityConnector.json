@@ -3761,11 +3761,6 @@
       ]
     },
     {
-      "field": "googleAccountId",
-      "header": "External Listings ID",
-      "subfieldPath": []
-    },
-    {
       "field": "hours",
       "header": "Sunday IsClosed",
       "subfieldPath": [
