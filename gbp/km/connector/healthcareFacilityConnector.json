@@ -1,6 +1,6 @@
 {
   "$id": "gbpHealthcareFacility_healthcareFacilityConnector",
-  "$schema": "https://schema.yext.com/config/km/connector/v3",
+  "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "GBP Healthcare Facility Connector",
   "entityType": "healthcareFacility",
   "source": {
@@ -4224,5 +4224,9 @@
         }
       ]
     }
-  ]
+  ],
+    "comprehensiveModeConfig": {
+    "comprehensiveSet": "ENTITIES_CREATED_BY_THIS_CONNECTOR",
+    "actionOnMissingEntities": "DELETE"
+  }
 }
