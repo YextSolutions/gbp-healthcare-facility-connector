@@ -2,7 +2,9 @@
   "$id": "gbpHealthcareFacility_healthcareFacilityConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "GBP Healthcare Facility Connector",
-  "entityType": "healthcareFacility",
+  "entityTypes": [
+    "healthcareFacility"
+  ],
   "source": {
     "sourceConfig": {
       "nativeSourceConfig": {
